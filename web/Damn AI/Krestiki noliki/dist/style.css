@@ -8,7 +8,7 @@ h2 {
 	line-height: 50px;
 	text-align: center;
 	text-transform: uppercase;
-	border: 1px solid #333;
+	border: 1px solid # 333;
 	margin: 5px;
 	cursor: pointer;
 
@@ -20,35 +20,35 @@ table {
 	/*margin: 0 auto;*/
 }
 
-#win_block {
+# win_block {
 	display: none;
 	text-align: center;
 	padding-top: 20px;
 	font-size: 20px;
 }
-#win_block .again{
+# win_block .again{
 	font-weight: bold;
 	cursor: pointer;
-	color: #369;
-	border-bottom: 1px solid #369;
+	color: # 369;
+	border-bottom: 1px solid # 369;
 }
-#win_block .again:hover{
+# win_block .again:hover{
 	border-color: transparent;
 	
 }
 
 
-#game {
+# game {
 	position: relative;
 }
-#game .table{
+# game .table{
 	/*border: 1px solid red;*/
 	display: table;
 	
 	margin: 0 auto;
 	position: relative;
 }
-#game .table .winning{
+# game .table .winning{
 	display: none;
 	width: 100%;
 	height: 100%;
@@ -59,15 +59,15 @@ table {
 	left: 0;
 }																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
 																																																																																																																						/*_nolikov}*/
-#game table tr:first-child div {
+# game table tr:first-child div {
 	margin-top: 0;
 }
-#game table tr:last-child div {
+# game table tr:last-child div {
 	margin-bottom: 0;
 }
-#game table tr td:first-child div {
+# game table tr td:first-child div {
 	margin-left: 0;
 }
-#game table tr td:last-child div {
+# game table tr td:last-child div {
 	margin-right: 0;
 }

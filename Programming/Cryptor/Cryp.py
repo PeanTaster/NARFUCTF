@@ -173,14 +173,14 @@ class Network:
             return f"ping from {src} to {dst}"
         return "Unknown host"
     
-    #Recursive DNS
+    # Recursive DNS
     def resolve(self, dns_addr, name):
         try:
             return self.__hosts[dns_addr].resolve(name)
         except KeyError:
             return None
      
-    #NonRecursive DNS
+    # NonRecursive DNS
     def resolveNonRec(self, dns_addr, name):
             
         if self.__hosts[dns_addr].localDb().resolve(name):
@@ -196,4 +196,4 @@ class Network:
 enc_flag = cryyypt_flag(flag)
 print repr(enc_flag)
 
-# This script prints '&[.{\x1f`\x16^\x11o\x13E\x10v\x08{.b\x1dy\x14b\x08'
+#  This script prints '&[.{\x1f`\x16^\x11o\x13E\x10v\x08{.b\x1dy\x14b\x08'
