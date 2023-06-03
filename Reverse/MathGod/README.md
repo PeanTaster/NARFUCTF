@@ -9,7 +9,7 @@
 
 Ниже код для дешифрации строки.
 
-```с++
+```C++
 #include <iostream> 
 #include <string> 
 using namespace std;
